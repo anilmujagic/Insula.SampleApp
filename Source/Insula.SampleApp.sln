@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insula.SampleApp", "Insula.SampleApp\Insula.SampleApp.csproj", "{002E946E-85FA-4C7D-A6FF-A3DD72CE3AD5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Insula.SampleApp.Database", "Insula.SampleApp.Database\Insula.SampleApp.Database.sqlproj", "{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5054B50A-83D4-44F1-90AC-6CA653A6091C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{002E946E-85FA-4C7D-A6FF-A3DD72CE3AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002E946E-85FA-4C7D-A6FF-A3DD72CE3AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002E946E-85FA-4C7D-A6FF-A3DD72CE3AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002E946E-85FA-4C7D-A6FF-A3DD72CE3AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4FA782-9E40-4517-B3D3-EFE89BBE8B27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
